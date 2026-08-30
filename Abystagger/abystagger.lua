@@ -245,7 +245,7 @@ local function render_yellow()
 
     imgui.TextColored(colors.yellow, '!! YELLOW !!')
     imgui.SameLine()
-    imgui.Text(('Magic Weapon Skills  -  ACTIVE: %s'):format(active))
+    imgui.Text(('Magic -  ACTIVE: %s'):format(active))
 
     imgui.BeginChild('yellow_list_v2', {0, 145}, ImGuiChildFlags_Borders)
 
