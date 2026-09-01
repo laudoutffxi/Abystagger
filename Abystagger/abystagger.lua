@@ -9,7 +9,7 @@ local ffi = require 'ffi'
 local imgui = require 'imgui'
 
 local state = {
-    open = { true },
+    open = { false },
     show_all = { false },
     compact = { false },
     target = 'No target',
