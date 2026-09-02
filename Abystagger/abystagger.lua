@@ -361,6 +361,3 @@ end);
 ashita.events.register('load', 'load_cb', function()
     init_vana_time();
 end);
-
-    imgui.End()
-end)
