@@ -209,7 +209,7 @@ end
 --------------------------------------------------
 local function render_header()
     imgui.PushStyleColor(ImGuiCol_Text, colors.header);
-    imgui.Text('ABYSSEA STAGGER — LIVE');
+    imgui.Text('ABYSSEA STAGGER LIVE');
     imgui.PopStyleColor();
 
     imgui.Separator();
